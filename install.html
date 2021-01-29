@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3" />
+    <!-- Your app title -->
+    <title>Workshop</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="css/framework7.bundle.min.css" />
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css" />
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+      <!-- Left Panel -->
+      <div
+        class="panel panel-right panel-init bg-color-teal"
+        style="overflow-y: scroll"
+      >
+        <div class="block">
+          <h1 class="text-color-white text-align-center">Workshop Mentor</h1>
+
+          <h3 class="text-color-white">Learn</h3>
+          <a
+            href="index.html"
+            class="external button button-outline button-large color-white nunito-regular"
+            >1. Introduction</a
+          >
+          <br />
+          <a
+            href="#"
+            class="button button-fill button-large bg-color-white text-color-teal nunito-regular"
+            >2. Installation</a
+          >
+          <br />
+          <a
+            href="utils.html"
+            class="external button button-outline button-large color-white nunito-regular"
+            >3. Utilities</a
+          >
+          <br />
+          <a
+            href="nav.html"
+            class="external button button-outline button-large color-white nunito-regular"
+            >4. Navigation</a
+          >
+          <br />
+          <a
+            href="button.html"
+            class="external button button-outline button-large color-white nunito-regular"
+            >5. Button</a
+          >
+          <br />
+          <a
+            href="card.html"
+            class="external button button-outline button-large color-white nunito-regular"
+            >6. Card</a
+          >
+          <br />
+
+          <h3 class="text-color-white">Create</h3>
+          <a
+            href="https://xd.adobe.com/view/10c2b2c7-0cf4-4239-b515-a2533f1bbd62-4591/"
+            target="_blank"
+            class="external button button-outline button-large color-white nunito-regular"
+            >1. Demo</a
+          >
+          <br />
+        </div>
+      </div>
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+          <div class="page-content">
+            <div class="block">
+              <h1 class="text-color-black">Installation</h1>
+              <h1
+                style="font-size: 50px; margin-top: -20px"
+                class="text-color-teal"
+              >
+                How to install framework7
+              </h1>
+
+              <h1>Required tools</h1>
+              <ul style="font-size: 18px">
+                <li>Internet Connection</li>
+                <li>Text Editor</li>
+                <li>Browser</li>
+              </ul>
+
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-item-divider"></div>
+                  <div class="timeline-item-content">
+                    <h1>Create Project</h1>
+                    <ul style="font-size: 18px">
+                      <li>projectname</li>
+                      <ul>
+                        <li>css</li>
+                        <li>img</li>
+                        <li>js</li>
+                        <li>index.html</li>
+                      </ul>
+                    </ul>
+                    <br />
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-item-divider"></div>
+                  <div class="timeline-item-content">
+                    <h1>Download framework7</h1>
+                    <a
+                      href="https://github.com/framework7io/framework7/releases/tag/v5.7.14"
+                      target="_blank"
+                      class="external button button-fill button-large bg-color-teal"
+                      style="width: 150px"
+                      >Download</a
+                    >
+                    <br />
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-item-divider"></div>
+                  <div class="timeline-item-content">
+                    <h1>3. Extract the file</h1>
+                    <br />
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-item-divider"></div>
+                  <div class="timeline-item-content">
+                    <h1>4. Add file to project</h1>
+                    <h3>CSS File</h3>
+                    <ul style="font-size: 18px">
+                      from
+                      <li>packages/core/css/framework7.bundle.min.css</li>
+                      to
+                      <li>projectname/css/</li>
+                      <br />
+                    </ul>
+                    <h3>JS File</h3>
+                    <ul style="font-size: 18px">
+                      from
+                      <li>packages/core/js/framework7.bundle.min.js</li>
+                      to
+                      <li>projectname/js/</li>
+                      <br />
+                    </ul>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-item-divider"></div>
+                  <div class="timeline-item-content">
+                    <h1>5. Create HTML Layout</h1>
+                    <a
+                      href="https://v5.framework7.io/docs/app-layout.html"
+                      target="_blank"
+                      class="external button button-fill button-large bg-color-teal"
+                      style="width: 300px"
+                      >framework7 HTML Starter</a
+                    >
+                    <br />
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-item-divider"></div>
+                  <div class="timeline-item-content">
+                    <h1>6. Initialize Project</h1>
+                    <p style="font-size: 18px">
+                      Create my-app.js on projectname/js/
+                    </p>
+                    <a
+                      href="https://v5.framework7.io/docs/init-app.html"
+                      target="_blank"
+                      class="external button button-fill button-large bg-color-teal"
+                      style="width: 300px"
+                      >framework7 Initialize</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="js/framework7.bundle.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>

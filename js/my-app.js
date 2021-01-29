@@ -1,0 +1,16 @@
+var app = new Framework7({
+  // App root element
+  root: '#app',
+  // App Name
+  name: 'Workshop',
+  // App id
+  id: 'com.workshop.jiaan',
+  //define themes
+  theme: 'md',
+  // Enable swipe panel
+  panel: {
+    swipe: 'left',
+    visibleBreakpoint: 768,
+  },
+  // ... other parameters
+});
