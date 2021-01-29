@@ -169,6 +169,28 @@
                       >framework7 HTML Starter</a
                     >
                     <br />
+                    <h3>
+                      Create Custom CSS for desktop view on
+                      projectname/css/my-app.css
+                    </h3>
+                    <p>
+                      <xmp
+>
+/* css desktop view only */
+@media only screen and (min-width: 700px) {
+  .framework7-root,
+  body,
+  html {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #ededed;
+  }
+}
+                      </xmp>
+                    </p>
                   </div>
                 </div>
                 <div class="timeline-item">
