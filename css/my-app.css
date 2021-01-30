@@ -18,3 +18,55 @@ html {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
 }
+
+/* A bit of demo styles */
+.demo-swiper .swiper-slide {
+  font-size: 25px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+.demo-swiper .swiper-slide {
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+}
+.demo-swiper {
+  margin: 0px 0 35px;
+  font-size: 18px;
+  /* height: 100%; */
+}
+.demo-swiper.demo-swiper-auto .swiper-slide {
+  width: 50%;
+}
+.demo-swiper.demo-swiper-auto .swiper-slide:nth-child(2n) {
+  width: 55%;
+}
+.demo-swiper.demo-swiper-auto .swiper-slide:nth-child(3n) {
+  width: 50%;
+}
+
+.bg-header {
+  background-color: #e6e367;
+  height: 320px;
+}
+
+.bg-header-music {
+  background-color: #222222;
+  height: 280px;
+}
+
+.header-books-title-divider {
+  margin-top: -10px;
+  background-color: black;
+  width: 50px;
+  height: 1px;
+}
+.header-music-title-divider {
+  margin-top: -10px;
+  background-color: white;
+  width: 50px;
+  height: 1px;
+}
